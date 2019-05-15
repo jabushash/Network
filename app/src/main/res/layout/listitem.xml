@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="top|center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/macText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/vendorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/onlineText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/kick"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="31dp"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_red_light"
+        android:text="kick"
+        android:textAlignment="center"/>
+
+</LinearLayout>
